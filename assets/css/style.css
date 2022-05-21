@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1f21;
+    background-color: #f8f8f8;
+}
+
+main{
+    display: flex;
+}
+
+/* Sección Contactos */
+.contacts{
+    width: 20%;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Usuario principal */
+.main-user{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #e0e0e0;
+    justify-content: space-between;
+}
+
+.user-maria{
+    display: flex;
+    flex-direction: row;
+}
+
+.tiny-thumbnail{
+    display: flex;
+    flex-direction: row;
+}
+
+.tiny-thumbnail img{
+    width: 35.5px;
+    height: 35.5px;
+    border-radius: 100%;
+    border: 2px solid #e0e0e0;
+    margin: 10px 0 10px 35px;
+}
+
+.status{
+    margin: 12px 0 12px 10px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.status h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.status p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #bec1bb;
+}
+
+.icons{
+    color: #828485;
+    margin-top: 15px;
+    display: flex;
+    margin: 22px 35px 0 0;
+}
+
+.icons i{
+    margin: 0 7px;
+}
+
+/* Usuarios */
+.profiles{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.normal-thumbnail{
+    display: flex;
+    flex-direction: row;
+}
+
+.normal-thumbnail img{
+    width: 45.5px;
+    height: 45.5px;
+    border-radius: 100%;
+    border: 2px solid #e0e0e0;
+    margin: 10px 0 10px 35px;
+}
+
+.user{
+    margin: 12px 0 12px 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Botón */
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 45.5px;
+    background-color: #a491d2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+}
+
+a:hover{
+    background-color: #cdc3e6;
+}
+
+a:active{
+    background-color: #d4dcff;
+}
+
+.new-chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 36px 0;
+}
+
+/* Sección Principal */
+.chat{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.hand-img{
+    display: flex;
+}
+
+.hand-img img{
+    width: 253px;
+    height: 248px;
+    /* margin-bottom: 20px; */
+}
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
