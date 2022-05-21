@@ -35,6 +35,7 @@ main{
 .user-maria{
     display: flex;
     flex-direction: row;
+    gap: 0 10px;
 }
 
 .tiny-thumbnail{
@@ -51,7 +52,7 @@ main{
 }
 
 .status{
-    margin: 12px 0 12px 10px;
+    margin: 12px 0;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -85,7 +86,10 @@ main{
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     border-bottom: 2px solid #e0e0e0;
+    gap: 0 13px;
 }
 
 .normal-thumbnail{
@@ -102,7 +106,7 @@ main{
 }
 
 .user{
-    margin: 12px 0 12px 13px;
+    margin: 12px 0;
     display: flex;
     flex-direction: column;
 }
